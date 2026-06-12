@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Agro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho <span>Sustentável</span></div>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#pilares">Pilares</a>
+            <a href="#quiz">Desafio</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio perfeito entre a produção de alimentos e a preservação do nosso planeta.</p>
+            <a href="#quiz" class="btn">Testar Meus Conhecimentos</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="container">
+        <h2>O Desafio do Século</h2>
+        <p>Produzir de forma sustentável significa atender às necessidades de alimentação da população atual sem comprometer os recursos das próximas gerações. O projeto Agrinho nos convida a pensar em soluções tecnológicas e ecológicas para o campo.</p>
+    </section>
+
+    <section id="pilares" class="pilares-section">
+        <div class="container">
+            <h2>Como equilibrar a balança?</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Tecnologia no Campo</h3>
+                    <p>Uso de drones e sensores para aplicar água e fertilizantes apenas onde é necessário, evitando desperdícios.</p>
+                </div>
+                <div class="card">
+                    <h3>Preservação</h3>
+                    <p>Manutenção de áreas de mata nativa e proteção de nascentes de água dentro das propriedades rurais.</p>
+                </div>
+                <div class="card">
+                    <h3>Rotação de Culturas</h3>
+                    <p>Alternar o que é plantado para manter o solo saudável e fértil naturalmente, sem excesso de químicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="container quiz-section">
+        <h2>Desafio Agrinho</h2>
+        <p>Você sabe como funciona o agro sustentável? Responda à pergunta abaixo:</p>
+        
+        <div class="quiz-card">
+            <h3 id="pergunta">Qual das opções abaixo ajuda a economizar água na agricultura?</h3>
+            <div class="options">
+                <button class="option-btn" onclick="verificarResposta(false)">Irrigação contínua por inundação</button>
+                <button class="option-btn" onclick="verificarResposta(true)">Gotejamento inteligente com sensores</button>
+                <button class="option-btn" onclick="verificarResposta(false)">Plantar apenas em épocas de seca</button>
+            </div>
+            <p id="resultado" class="resultado-texto"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Desenvolvido para um futuro melhor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
