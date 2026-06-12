@@ -1,1 +1,3 @@
 # 2026-agrinho-leticia
+O que é o projeto: Este site nasce da ideia de que o campo e a natureza precisam caminhar juntos. Criei uma página super leve e interativa para o Projeto Agrinho, com o objetivo de mostrar que a tecnologia e o cuidado com o meio ambiente são os melhores amigos da agricultura moderna.
+Através de um visual direto e de um quiz bem dinâmico, o site convida as pessoas (especialmente os jovens) a entenderem como coisas como drones, sensores e a rotação de culturas ajudam a produzir alimentos sem desgastar o nosso planeta. É um espacinho digital feito para inspirar e provar que o futuro do agro pode (e deve) ser sustentável.
